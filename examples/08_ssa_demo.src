@@ -1,0 +1,10 @@
+value = 4;
+limit = 6;
+while (value < limit) {
+    if (value % 2 == 0) {
+        value = value + 3;
+    } else {
+        value = value + 1;
+    }
+}
+print value;

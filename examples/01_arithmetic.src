@@ -1,0 +1,8 @@
+// arithmetic: precedence, parentheses, unary minus
+a = 10;
+b = 4;
+c = 2;
+x = a + b * c - (a - b) / c;
+y = -x + a % 3;
+print x;
+print y;

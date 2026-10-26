@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tacgen"
+version = "2.0.0"
+description = "Educational Three Address Code generator with CFG and SSA inspection"
+requires-python = ">=3.8"
+
+[project.scripts]
+tacgen = "tacgen.__main__:main"

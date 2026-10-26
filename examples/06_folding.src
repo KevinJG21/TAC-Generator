@@ -1,0 +1,7 @@
+// what -O removes
+x = 2 + 3 * 4;
+y = (10 - 4) * (1 + 1);
+flag = 3 < 5 && !(2 > 7);
+z = x * y;
+print z;
+print flag;

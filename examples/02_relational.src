@@ -1,0 +1,9 @@
+// relational expressions as values (0 / 1)
+a = 7;
+b = 12;
+lt = a < b;
+eq = a == b;
+ge = a * 2 >= b + 2;
+print lt;
+print eq;
+print ge;
